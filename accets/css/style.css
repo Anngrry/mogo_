@@ -354,7 +354,27 @@ h1, h2, h3, h4, h5, h6 {
 
 .services__item {
    flex: 1 1 0;
-   
+   padding-left: 90px;
+   position: relative;
+}
 
+.services__icon {
+   position: absolute;
+   top: 0;
+   left: 38px;
+   z-index: 1;
+}
+
+.services__title {
+   font-size: 14px;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: #333;
+   margin-bottom: 10px;
+}
+
+.services__text{
+   font-size: 15px;
+   color:#999 ;
 
 }
